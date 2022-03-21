@@ -1,0 +1,22 @@
+{
+  "name": "1lab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "serve": "node app.js"
+  },
+  "author": "Vasakot",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.27.7",
+    "jasmine-node": "^3.0.0",
+    "node-sass": "^7.0.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "express": "^4.17.3",
+    "jquery": "^3.6.0",
+    "xhr2": "^0.2.1"
+  }
+}
