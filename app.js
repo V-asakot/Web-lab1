@@ -14,7 +14,7 @@ app.get("/", (req, response) => {
 })
 
 app.post("/", urlencodedParser, function (request, response) {
-  if(!request.body) return response.sendStatus(400);
+  if(!request.body) return response.sendStatus(404);
   console.log(request.body);
 
   var xhr = new XMLHttpRequest();
